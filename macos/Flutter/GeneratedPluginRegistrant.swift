@@ -6,9 +6,9 @@ import FlutterMacOS
 import Foundation
 
 import file_picker
-import flutter_usb
+import flusbserial
 
 func RegisterGeneratedPlugins(registry: FlutterPluginRegistry) {
   FilePickerPlugin.register(with: registry.registrar(forPlugin: "FilePickerPlugin"))
-  FlutterUsbPlugin.register(with: registry.registrar(forPlugin: "FlutterUsbPlugin"))
+  FlUsbSerialPlugin.register(with: registry.registrar(forPlugin: "FlUsbSerialPlugin"))
 }

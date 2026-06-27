@@ -28,5 +28,10 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+
+	<key>NSUSBRemovableDevicesUsageDescription</key>
+	<string>This app needs access to USB devices</string>
+	<key>NSRemovableVolumesUsageDescription</key>
+	<string>This app needs access to removable volumes</string>
 </dict>
 </plist>

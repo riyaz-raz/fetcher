@@ -185,6 +185,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.7"
+  dart_libusb:
+    dependency: transitive
+    description:
+      name: dart_libusb
+      sha256: "6d15c7b788aad3353b23a3fc4c746a761f860053be936fd61f72d221256ef02e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
   dart_style:
     dependency: transitive
     description:
@@ -257,6 +265,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.1"
+  flusbserial:
+    dependency: "direct main"
+    description:
+      name: flusbserial
+      sha256: "889ceb4d1e577210d73eaef547832127a6e2216ad374956129bc0494fccb7d77"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.6.0"
   flutter:
     dependency: "direct main"
     description: flutter
@@ -296,14 +312,6 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
-  flutter_usb:
-    dependency: "direct main"
-    description:
-      name: flutter_usb
-      sha256: "66d70d4cf6a739502d166e6431d1761f731c950a9d9e8a7891ddcf6e3f51f3e3"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.0.4"
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -661,14 +669,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.5.2"
-  process_run:
-    dependency: transitive
-    description:
-      name: process_run
-      sha256: "3af4220bdee974fd6305caab920c8af07cd846696f825e6e84fb4e123b13fde9"
-      url: "https://pub.dev"
-    source: hosted
-    version: "1.3.4"
   pub_semver:
     dependency: transitive
     description:
@@ -988,4 +988,4 @@ packages:
     version: "3.1.3"
 sdks:
   dart: ">=3.12.2 <4.0.0"
-  flutter: ">=3.38.4"
+  flutter: ">=3.41.0"

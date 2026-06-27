@@ -15,11 +15,11 @@ dependencies:
   riverpod_annotation: ^4.0.3
   
   # Core Functionality
-  flutter_usb: ^0.0.4
   disk_space: ^0.2.1
   file_picker: ^11.0.2
   path_provider: ^2.1.1
   permission_handler: ^12.0.3
+  flusbserial: ^0.6.0
   
   # Utils
   equatable: ^2.0.5
